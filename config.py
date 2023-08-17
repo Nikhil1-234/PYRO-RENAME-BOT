@@ -26,12 +26,12 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Config(object):
     # pyro client config
-    API_ID    = os.environ.get("API_ID", "")
-    API_HASH  = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
+    API_ID    = os.environ.get("API_ID", "22299340")
+    API_HASH  = os.environ.get("API_HASH", "09b09f3e2ff1306da4a19888f614d937")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6544161566:AAGRs0j26zsEecrrzCGzth77tdJ6IF7p8hE") 
    
     # database config
-    DB_NAME = os.environ.get("DB_NAME","pyro-botz")     
+    DB_NAME = os.environ.get("DB_NAME","animelibraryn4")     
     DB_URL  = os.environ.get("DB_URL","")
  
     # other configs
